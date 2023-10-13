@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sriracha&display=swap');
+
+
+body{
+    background-color: rgb(31, 34, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1446px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cabecalho .titulo{
+    flex-direction: column;
+    line-height: 10px;
+    padding-top: 10px;
+}
+nav li {
+    display: inline-block;
+    margin: 20px;
+    color: white;
+
+}
+nav li a{
+
+color: white;
+    
+}
+
+.cabecalho li a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 35px;
+    transition: 0.2s;
+
+
+}
+.cabecalho li .inscreva-se-btn{
+    border: 2px solid rgb(95, 165, 245);
+    
+}
+
+.cabecalho nav li a:hover {
+    background-color: #048dfd;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    
+    
+}
+.container aside h2{
+    flex-direction: column;
+    line-height: 22px;
+    font-size: 56px;
+
+}
+
+.destaque{
+    color: rgb(40, 183, 255);
+}
+
+P{
+    line-height: 25PX;
+    text-align: justify;
+    max-width: 500PX;
+   
+}
+article img{
+    background-image: url("../img/img.mark.png");
+    font-size: 100% 100%;
+    position: absolute;
+    
+}
+form{
+   display: flex; 
+   flex-direction: column;
+   width: 70%;
+
+}
+ 
+input{
+    margin-top: 20px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(4, 141, 253);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+

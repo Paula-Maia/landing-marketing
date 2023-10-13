@@ -1,0 +1,63 @@
+
+@media screen and (max-width:760px){
+    
+    body{
+        background-color: rgb(34, 34, 34);
+        
+    
+    }
+    
+    .cabecalho{
+        flex-direction: column;
+        
+    }
+    .cabecalho  nav li{
+
+        margin: 10px auto;
+        
+    }
+    .cabecalho nav li a{
+        font-weight: normal;
+        transition: 0.1s;
+        border-radius: 50px;
+    }
+    .cabecalho li .inscreva-se-btn{
+        padding-top: 5px;
+    }
+    
+    .container{
+        margin: 0 auto;
+        flex-direction: column ;
+
+    }
+
+    .container aside{
+        margin: auto;
+    }
+    .container aside h2{
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .container aside .empresa{
+        font-size: 35px;
+    }
+
+    .container aside{
+        padding: 15px;
+    }
+
+    form{
+        margin: 0 auto;
+    }
+    .submit{
+        align-self: center;
+    }
+    img{
+        display: none;
+    }
+}
+
+    
+    
+
